@@ -172,7 +172,7 @@ footer{
         height: 100vh;        
     }
 
-    .contenedor {
+    .contenedor, h2 {
         height: auto;
         display: flex;
         justify-content: center;
