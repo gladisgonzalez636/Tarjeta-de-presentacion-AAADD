@@ -169,7 +169,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: start;
-        
+        height: 100vh;        
     }
 
     .contenedor {
@@ -200,8 +200,8 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: start;
-        margin-top: 40%;
+        justify-content: end;
+        
     }
 
     form {
@@ -212,7 +212,7 @@ footer{
     }
 
     input, select, label {
-        width: 100%;
+        width: 90%;
         font-family: 'Times New Roman';
     }
 
