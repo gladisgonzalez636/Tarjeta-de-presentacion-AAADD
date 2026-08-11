@@ -58,3 +58,20 @@ formulario.addEventListener("submit", function boton(e){
     }
 
 });
+
+const validarTodosCampos = document.getElementById("formulario");
+validarTodosCampos.addEventListener("submit", function(event){
+    const inputName = document.getElementById("nombre");
+    const inputPromocion = document.getElementById("promocion");
+    const inputEmail =  document.getElementById("email");
+    const inputTelefono = document.getElementById("number");
+
+    if( inputName.value === "" ||
+        inputPromocion.value === "" ||
+        inputEmail.value === "" ||
+        inputTelefono.value === ""
+    ){
+        event.preventDefault();
+        alert("Por favor llene los campos")
+    }
+})
